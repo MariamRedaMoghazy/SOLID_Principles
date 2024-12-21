@@ -36,7 +36,6 @@ class Restaurant:
         self.reservation_strategy.reserve_table(name, number_of_people)
 
 
-# Usage
 # Regular reservation
 restaurant_regular = Restaurant(RegularReservation())
 restaurant_regular.make_reservation("Alice", 4)
